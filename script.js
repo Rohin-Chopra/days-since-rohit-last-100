@@ -1,7 +1,9 @@
-const LAST_DATE = new Date("2021-09-02");
+const LAST_CENTURY_DATE = new Date("2021-09-02");
 
 const getDaysSinceLastCentury = () =>
-  Math.round(Math.abs((new Date() - LAST_DATE) / (24 * 60 * 60 * 1000)));
+  Math.round(
+    Math.abs((new Date() - LAST_CENTURY_DATE) / (24 * 60 * 60 * 1000))
+  );
 
 document.getElementById(
   "days-since-count"
