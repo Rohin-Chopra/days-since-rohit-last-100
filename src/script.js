@@ -1,4 +1,4 @@
-const LAST_CENTURY_DATE = new Date("2021-09-02");
+const LAST_CENTURY_DATE = new Date('2021-09-02');
 
 const getDaysSinceLastCentury = () =>
   Math.round(
@@ -6,5 +6,5 @@ const getDaysSinceLastCentury = () =>
   );
 
 document.getElementById(
-  "days-since-count"
+  'days-since-count'
 ).textContent = `${getDaysSinceLastCentury()} Days`;
